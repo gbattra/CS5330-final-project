@@ -35,7 +35,7 @@ public class TapToPlace : MonoBehaviour
         if (_arRaycastManager.Raycast(
             touch.position,
             hits, 
-            TrackableType.All))
+            TrackableType.Planes))
         {
             _placementPose = hits[0].pose;
             Instantiate(placementObject, _placementPose.position, _placementPose.rotation);
