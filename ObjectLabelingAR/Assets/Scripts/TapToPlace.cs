@@ -28,8 +28,12 @@ public class TapToPlace : MonoBehaviour
         if (Input.touchCount == 0)
             return;
 
+        var touch = Input.GetTouch(0);
+        if (touch.phase != TouchPhase.Began)
+            return;
+        
         if (_arRaycastManager.Raycast(
-            Input.GetTouch(0).position,
+            touch.position,
             hits, 
             TrackableType.All))
         {
