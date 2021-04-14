@@ -400,7 +400,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/UTech/MG-Karting
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /home/gattra/Projects/Unity/CS5330FinalProject/ObjectLabelingAR
+  m_LastProjectPath: /Users/gbattra/Documents/Projects/CS5330-final-project/ObjectLabelingAR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
